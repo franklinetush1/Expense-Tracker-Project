@@ -1,0 +1,160 @@
+.Dashboard{
+    flex: 1;
+    float: right;  
+    font-weight: bold;
+    display:flex;
+    flex-direction: column;
+       
+}
+
+.stats-container{      
+    width: 500px;
+    margin-left: 100px;
+}
+.monthexpense{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    width: 700px;
+    margin-left: 5px;    
+}
+
+.secExp{
+    height: 100%;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 150px;    
+    background-image: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%);
+    color: #000000;
+}
+
+.secExp p {
+    text-align: center;
+    margin-left: 30px;
+    font-size: 12px;
+}
+
+.secExp1{
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+    padding: 5px;
+    font-size: 20px;
+    color: black;    
+    background-image: linear-gradient( 135deg, #2AFADF 10%, #4C83FF 100%);
+    margin-left: 5px;
+
+}
+
+.secExp1 p {
+    margin-left: 30px;
+    text-align: center;    
+    font-size: 12px;
+}
+
+.secExp2{
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;    
+    width: 150px;
+    padding: 5px;    
+    color: black;  
+    font-size: 20px;  
+    background-image: linear-gradient( 135deg, #2AFADF 10%, #4C83FF 100%);
+    margin-left: 5px;
+}
+
+.secExp2 p{
+    margin-left: 40px;
+    text-align: center;    
+    font-size: 12px;
+    width: 100%;
+}
+
+.biggest{
+    height: auto;
+    background-image: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%);
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    color: #000000;  
+}
+
+.line{
+    background-color: aqua;
+}
+
+.chart{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 2rem;
+}
+
+.allstats{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.biggestExp{
+    margin-top: 0px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row; 
+}
+
+.BiggestBlock{    
+    height: auto;
+}
+
+.biggtitle{    
+    margin-left: 20px;
+    margin-top: 12px;
+}
+
+.biggestAmount{
+    margin-top: 12px;    
+    margin-left: 40px;
+}
+
+.biggestExp span {
+    font-size: 50px;
+}
+
+.allstats{
+    display: flex;
+    flex-direction: row;
+}
+
+.history-itm{
+    background: #ABDCFF;
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.06);
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+    height: 35px;
+    border: 1px solid black;
+}
+
+.pa{
+    display: flex;
+    opacity: 0.8;
+}
+
+.histo {
+    border: 0;
+}
+.histo p {
+    font-size: 12px;
+    border: 2px;
+}

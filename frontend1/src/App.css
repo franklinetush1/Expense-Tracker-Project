@@ -1,0 +1,13 @@
+input {
+    color: #ABDCFF;
+    border: 2px solid #ABDCFF;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background: transparent;
+    max-width: 190px;
+   }
+   
+input:active {
+    box-shadow: 2px 2px 15px #ABDCFF inset;
+   }
+   

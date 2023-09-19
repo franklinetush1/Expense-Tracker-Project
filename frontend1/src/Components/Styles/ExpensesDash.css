@@ -1,0 +1,23 @@
+.income-content{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+  }
+
+.btn-con{
+    margin: 0;
+}
+
+.expenses{
+    width: 600px;
+}
+
+.income-disp{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.input-income{
+    width: 100%;
+}

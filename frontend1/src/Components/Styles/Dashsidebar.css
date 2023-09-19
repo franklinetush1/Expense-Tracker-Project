@@ -1,0 +1,153 @@
+.App{
+  display: flex;
+  flex-direction: row;
+}
+
+.profilepic{
+    border-radius: 50%;
+    max-width: 100px;
+  }
+  
+  .dashsidebar{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin: 20px;
+    padding: 20px;
+    font-size: 2rem;
+  }
+  
+  .dash-cont{
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    margin: 10px;
+    justify-content:left;
+    text-align: left;
+  }
+  
+  .element_name{
+    font-size: 15px;
+    margin: auto;
+    float: left;
+  }
+  .pop_up{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 10;
+    left: 350px;
+  }
+
+  .activity{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .history-item{ 
+    background-color: #ABDCFF;   
+    padding: 10px;    
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.06);
+    padding: 1rem;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    color:white;
+    text-align: center;
+    margin: 10px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;     
+  }
+
+  .history-item p{
+    font-weight: bold;
+    
+  }
+
+  .pa{
+    float: right;
+  }
+  
+  .piechart{
+    width: 300px;
+    margin: 15px;
+  }
+  
+  
+  .activity_container{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+  }
+  
+  .pieTitle{
+    text-align: center;
+  }
+  
+  .PieChartDisp {
+    height: 200px;
+    margin: 15px;
+    
+  }
+  
+  .piecharts{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .activeDash{
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    margin: 10px;
+    justify-content:left;
+    text-align: left;
+    background: linear-gradient(#04233a, #243b55);
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+
+  .signout {
+    
+    width: 70px;
+    margin-top: 90px;
+    padding: 10px 5px;
+    border: 0;
+    border-radius: 12px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-size: 14px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+   }
+   
+   .signout::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: red;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+   
+   .signout:hover {
+    color: #e8e8e8;
+   }
+   
+   .signout:hover::before {
+    width: 100%;
+   }
+  
+  

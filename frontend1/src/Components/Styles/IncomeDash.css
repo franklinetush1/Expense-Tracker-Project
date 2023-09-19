@@ -1,0 +1,82 @@
+.income-content{
+    display: flex;
+    flex-direction: row;
+  }
+
+.btn-con{
+    margin: 0;
+}
+
+.incomes{
+    width: 600px;
+}
+
+.income-disp{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.input-income{
+    width: 100%;
+}
+
+
+.submit-btn{
+        padding: 1.3em 3em;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-weight: 500;
+        color: #000;
+        background-color: #fff;
+        border: none;
+        border-radius: 45px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+      }
+      
+      .submit-btn:hover {
+        background-color: #23c483;
+        box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+        color: #fff;
+        transform: translateY(-7px);
+      }
+      
+      .submit-btn:active {
+        transform: translateY(-1px);
+      }
+
+      .new-category {
+        background-color: #00BFA6;
+        padding: 12px 2px;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 10px;
+        margin-left: 7px;
+        cursor: pointer;
+        border-radius: 10px;
+        border: 2px dashed #00BFA6;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        transition: .4s;
+       }
+       
+       .new-category span:last-child {
+        display: none;
+       }
+       
+       .new-category:hover {
+        transition: .4s;
+        border: 2px dashed #00BFA6;
+        background-color: #fff;
+        color: #00BFA6;
+       }
+       
+       .new-category:active {
+        background-color: #87dbd0;
+       }
+       
+       
